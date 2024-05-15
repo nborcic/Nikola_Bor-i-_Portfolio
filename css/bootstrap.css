@@ -10416,3 +10416,11 @@ a.text-dark:focus {
   margin: 10px;
   cursor: pointer;
 }
+
+.img1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scale: 1.4;
+  width: 100%;
+  } 
