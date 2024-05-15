@@ -41,7 +41,6 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
-              <img src="" alt="" />
               <span style="font-size: 30px"> Nikola Borčić </span>
             </a>
 
@@ -90,7 +89,7 @@
                   with the latest web development trends to provide effective
                   solutions.
                 </p>
-                <a href="/contact.html" class=""> Contact Me </a>
+                <a href="/contact.html"> Contact Me </a>
               </div>
             </div>
             <div class="col-lg-5 col-md-6 offset-lg-1">
@@ -112,13 +111,14 @@
                       </div>
                       <div class="carousel-item customNextBtn">
                         <div class="img-box">
-                          <img src="/images/flags.webp" alt="" />
+                          <img
+                            src="/images/flags.webp"
+                            alt="aroatian and norge flags in half of circle"
+                          />
                         </div>
                       </div>
-                      <div class="carousel-item active">
-                        <div class="img-box">
-                          <img src="" alt="" />
-                        </div>
+                      <div class="carousel-item">
+                        <div class="img-box"></div>
                       </div>
                     </div>
                   </div>
@@ -259,7 +259,6 @@
             <div class="detail-box">
               <div class="heading_container">
                 <h2>About Me</h2>
-                <img src="" alt="" />
               </div>
               <p>
                 I am a junior web developer skilled in HTML, CSS, and
@@ -327,17 +326,24 @@
                   value="Nikola Borčić"
                   class="btnn"
                   data-clipboard-text="Copied"
-                  disabled
+                  readonly
                 />
               </div>
               <div>
-                <input type="email" value="nickborcic1@ymail.com" disabled />
+                <input
+                  type="email"
+                  value="nickborcic1@ymail.com"
+                  class="btnn"
+                  readonly
+                />
               </div>
               <div>
-                <input type="text" value="486 44 338" />
+                <input type="text" class="btnn" value="486 44 338" readonly />
               </div>
-
-              <div class="d-flex">
+              <div class="d-flex rounded btnn">
+                <button disabled>Click on contact to copy</button>
+              </div>
+              <div class="d-flex btnn">
                 <button disabled>Hope to hear from you soon</button>
               </div>
             </form>
@@ -350,7 +356,7 @@
                   width="600"
                   height="400"
                   style="border: 0"
-                  allowfullscreen=""
+                  allowfullscreen="0"
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
