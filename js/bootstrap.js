@@ -41,3 +41,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     showCopiedText(inputPhone, 3);
   });
 });
+
+
+
+const goTo = (link) => {
+  window.location.href = link;
+}
