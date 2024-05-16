@@ -90,27 +90,54 @@
     <section class="contact_section layout_padding">
       <div class="container">
         <div class="heading_container">
-          <h2>Contact Us</h2>
+          <h2>Contact Me</h2>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <form action="">
+            <form action="noFormAction_just4Backend">
               <div>
-                <input type="text" placeholder="Name" />
+                <input
+                  type="text"
+                  class="btnn"
+                  id="inputName"
+                  onclick="showCopiedText()"
+                  placeholder="Name"
+                  value="Nikola Borčić"
+                  readonly
+                  />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input
+                  type="email"
+                  class="btnn"
+                  id="inputEmail"
+                  placeholder="Email"
+                  value="nickborcic1@ymail.com"
+                  readonly
+                />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input
+                  type="text"
+                  class="btnn"
+                  id="inputPhone"
+                  placeholder="Phone Number"
+                  value="486 44 338"
+                  readonly
+                />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input
+                  type="text"
+                  class="message-box"
+                  value="Please feel free to contact me at any time. "
+                  readonly
+                />
               </div>
               <div class="d-flex rounded">
-                <button>Hope to hear from you soon</button>
+                <button disabled>Hope to hear from you soon</button>
               </div>
             </form>
           </div>

@@ -733,3 +733,21 @@ a:focus {
   margin: 10px;
   cursor: pointer;
 }
+/* 
+.inputContainer {
+  position: relative;
+  display: inline-block;
+}
+.copiedBalloon {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+}for a possible bubble with message "Copied" */
