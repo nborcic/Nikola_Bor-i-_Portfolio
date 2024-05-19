@@ -752,3 +752,13 @@ a:focus {
   white-space: nowrap;
 }
 sfor a possible bubble with message "Copied" */
+
+#inputName, #inputEmail,  #inputPhone {
+  background: url(/images/copy_clipboard.svg) no-repeat right 10px center;
+  background-size: 15px 15px;
+  padding-right: 15px;
+}
+
+#inputName, #inputEmail,  #inputPhone, on:hover {
+  cursor: pointer;
+}
